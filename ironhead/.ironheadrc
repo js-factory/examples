@@ -1,0 +1,8 @@
+{
+    "paths": {
+  	    "routes": "/app/routes",
+        "middleware": "/app/middleware",
+        "hooks": "/app/hooks",
+        "views": "/public/templates"
+    }
+}

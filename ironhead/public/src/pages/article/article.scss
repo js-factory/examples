@@ -1,0 +1,19 @@
+
+.article {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    .headline {
+        padding: 10px 0;
+    }
+    .poster {
+        padding-bottom: 52.285714%;
+        height: 0;
+        position: relative;
+        .poster-elm {
+            position: absolute;
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+}

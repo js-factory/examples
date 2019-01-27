@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+p {
+    font-family: $copy-font;
+    font-weight: 400;
+    padding: 8px 0;
+    color: #212121;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+a {
+    color: #212121
+}
+
+body {
+    background: #eee;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $header-font;
+    font-weight: 700;
+    color: $gray-dark;
+}
