@@ -6,10 +6,11 @@
     "scripts": {
         "test": "npm run test",
         "build": "NODE_ENV=production webpack --config ./tools/webpack/webpack.js --mode=production -p",
-        "start": "npm run build && node ."
+        "start": "npm i && npm run build && node ."
     },
     "dependencies": {
-        "@js-factory/onejs": "^0.0.1",
+        "@js-factory/ironhead": "0.0.3",
+        "@js-factory/onejs": "^0.3.0",
         "bluebird": "^3.5.3",
         "body-parser": "^1.18.3",
         "cookie-parser": "^1.4.3",

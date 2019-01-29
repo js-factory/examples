@@ -1,5 +1,10 @@
 @import './../css/variable.scss';
 @import './../css/typography.scss';
+.app-shell {
+    max-width: 441px;
+    margin: 0 auto;
+}
+
 .article-page {
     min-height: 1024px;
 }

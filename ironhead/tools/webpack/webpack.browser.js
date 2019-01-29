@@ -18,6 +18,7 @@ const bundleAnalysis = process.env.PERF ? [new BundleAnalyzerPlugin()] : [];
 const compression = process.env.NODE_ENV === 'production' ? [new CompressionPlugin()] : [];
 
 module.exports = merge(common, {
+    devtool: 'source-map',
     entry: `${CSR_APP_DIR}/browser.js`,
     output: {
         path: CSR_BUILD_DIR,

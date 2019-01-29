@@ -1,2 +1,6 @@
 Ironhead application
 ====================
+
+```
+npm start
+```
