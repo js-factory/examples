@@ -1,13 +1,12 @@
 import { withState, withStore } from '@js-factory/onejs';
 import ArticleTmpl from './ArticleTmpl';
 import afterRender from './hooks/afterRender';
-import { lazyLoad, unbindEvents } from '../../util/imageLazyLoad';
+import lazyLoad from '../../util/imageLazyLoad';
 
 @withStore({
     watcher: ['article'],
     actions: {
-        lazyLoad,
-        unbindEvents
+        lazyLoad
     }
 })
 @withState({

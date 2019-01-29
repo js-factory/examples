@@ -3,7 +3,7 @@ import './article.scss';
 
 const ArticleTmpl = (props) => {
     const { article: stories } = props;
-    const { totalResults = 0, articles } = stories;
+    const { articles } = stories;
     return (
         <div class="story-page">
             <div class="lazy-container">
@@ -13,7 +13,7 @@ const ArticleTmpl = (props) => {
                         <article class="article">
                             <div class="poster">
                                 <a href={url} native>
-                                    <img class="load-in-vw poster-elm" data-src-320={urlToImage} />
+                                    <img class="lvw poster-elm" data-src={urlToImage} />
                                 </a>
                             </div>
                             <h2 class="headline"><a href={url} native>{title}</a></h2>
