@@ -1,10 +1,12 @@
 import { h } from 'preact';
 import './header.scss';
 
-const HeaderLayout = (props) => (
+const HeaderLayout = props => (
     <div>
         <header class="header">
-            <h1>Top headlines</h1>
+            <div class="logo">
+                <img class="logo-img" src="https://www.jabong.com/juicestyle/wp-content/themes/juicer/images/logo-juicer1.png" alt="Juice" />
+            </div>
         </header>
     </div>
 );
