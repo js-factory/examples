@@ -1,4 +1,4 @@
-const gateway = require('../../../gateway/article');
+const { gateway } = require('./gatewayConfig');
 
 module.exports = {
     domain: 'article',

@@ -15,6 +15,7 @@
         "body-parser": "^1.18.3",
         "cookie-parser": "^1.4.3",
         "css-loader": "^1.0.1",
+        "ioredis": "^4.6.2",
         "preact": "^8.4.2",
         "preact-render-to-string": "^4.1.0",
         "preact-router": "^2.6.1",

@@ -1,7 +1,9 @@
-const init = require('./init');
+const httpClient = require('./httpClient');
+const redis = require('./redis');
 
 const hooks = [
-    init
+    redis,
+    httpClient
 ];
 
 module.exports = hooks;

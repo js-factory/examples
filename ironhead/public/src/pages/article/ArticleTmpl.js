@@ -16,8 +16,8 @@ const ArticleTmpl = (props) => {
                                     <img class="lvw poster-elm" data-src={urlToImage} />
                                 </a>
                             </div>
-                            <h2 class="headline"><a href={url} native>{title}</a></h2>
-                            <p class="desc"><a href={url} native>{description}</a></p>
+                            <h2 class="headline"><a href={url} native><span dangerouslySetInnerHTML={{ __html: title }} /></a></h2>
+                            <p class="desc"><a href={url} native><span dangerouslySetInnerHTML={{ __html: description }} /></a></p>
                         </article>
                     );
                 })}

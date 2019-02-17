@@ -1,4 +1,4 @@
-const article = require('../modules/story/routes/article');
+const article = require('../modules/story/route');
 
 const routes = [
 	article
