@@ -5,7 +5,7 @@ const HeaderLayout = props => (
     <div>
         <header class="header">
             <div class="logo">
-                <img class="logo-img" src="https://www.jabong.com/juicestyle/wp-content/themes/juicer/images/logo-juicer1.png" alt="Juice" />
+                <img class="logo-img" src="https://blog.golang.org/go-brand/Go-Logo/SVG/Go-Logo_Black.svg" alt="Go App" />
             </div>
         </header>
     </div>

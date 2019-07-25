@@ -9,10 +9,12 @@
         "start": "npm i && npm run build && node ."
     },
     "dependencies": {
-        "@js-factory/ironhead": "0.0.3",
+        "@js-factory/ironhead": "^0.1.2",
         "@js-factory/onejs": "^0.3.0",
         "bluebird": "^3.5.3",
         "body-parser": "^1.18.3",
+        "browserslist": "^4.6.3",
+        "caniuse-lite": "^1.0.30000979",
         "cookie-parser": "^1.4.3",
         "css-loader": "^1.0.1",
         "ioredis": "^4.6.2",
@@ -55,7 +57,7 @@
         "sass-loader": "^7.1.0",
         "uglifyjs-webpack-plugin": "^2.1.1",
         "webpack": "^4.29.0",
-        "webpack-bundle-analyzer": "^3.0.3",
+        "webpack-bundle-analyzer": "^3.3.2",
         "webpack-cli": "^3.1.2",
         "webpack-manifest-plugin": "^2.0.4",
         "webpack-merge": "^4.2.1",
